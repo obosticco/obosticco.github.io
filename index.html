@@ -1,2 +1,20 @@
-Hello World!!! This is Owen!!
-<p>How are you?</p>
+<html>
+    <head>Owen's page</head>
+    <title>Owen's Github Page</title>
+    <body>
+        <div id="container">
+        </div>
+        <input id= "name"> </input>
+        <button onClick="addToList()">Click to Add</button>
+        <script>
+            function addToList(){
+                const elem = document.createElement("li");
+                var text = document.getElementById("name").value;
+                document.getElementById("name").value = "";
+                const subElem = document.createTextNode(text);
+                elem.appendChild(subElem);
+                document.getElementById("container").appendChild(elem);
+            }
+        </script>
+    </body>
+</html>

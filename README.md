@@ -1,2 +1,1 @@
-# owenbosticco.github.io
-Owen's Portfolio
+# Owen's Portfolio
